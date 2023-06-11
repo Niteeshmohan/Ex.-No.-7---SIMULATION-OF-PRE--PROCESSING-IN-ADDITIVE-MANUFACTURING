@@ -46,7 +46,7 @@
 
 ![eig](7.png)
 
-# EXPLANATION:
+EXPLANATION:
 
 Model Design: Begin with creating or obtaining a 3D model using computer-aided design (CAD) software. Design the model according to your specifications and intended use.
 
@@ -60,7 +60,7 @@ Scaling and Orientation: Adjust the size and orientation of the model as per you
 
 ![eig](7.1.png)
 
-# EXPLANATION:
+EXPLANATION:
 
 Converting a 3D model to the STL (Standard Tessellation Language) file format is a common pre-processing step in 3D printing. The STL format represents the surface geometry of the object as a collection of interconnected triangles.
 
@@ -74,7 +74,7 @@ Once your model is ready, export it to the STL file format. In your chosen 3D mo
 
 ![eig](7.2.png)
 
-# EXPLANATION:
+EXPLANATION:
 
 Orientation plays a crucial role in the pre-processing stage of 3D printing. Choosing the right orientation for your 3D model can significantly impact the quality, strength, and overall success of your print.
 
@@ -86,7 +86,7 @@ Orienting your model in a way that aligns with the printer's optimal speed axes 
 
 ![eig](7.3.png)
 
-# EXPLANATION:
+EXPLANATION:
 
 Support structures are often necessary in 3D printing to provide stability and prevent overhangs and unsupported features from collapsing during the printing process. These structures act as temporary supports for overhanging or complex geometries and are typically removed after printing.
 
@@ -100,7 +100,7 @@ Once you are satisfied with the support structures, generate the final sliced fi
 
 ![eig](7.4.png)
 
-# EXPLANATION:
+EXPLANATION:
 
 It involves taking a 3D model, dividing it into layers, and generating the instructions that the 3D printer will use to create each layer.Start by importing your 3D model into slicing software. This software takes various file formats, such as STL or OBJ, and prepares the model for printing.Determine the slicing parameters, which include settings like layer height, infill density, print speed, and shell thickness. These settings define the quality, strength, and speed of the print. Higher layer heights and infill densities result in faster but less detailed prints, while lower layer heights and higher infill densities produce more detailed and stronger prints at the cost of longer print times and increased material usage.
 
@@ -112,7 +112,7 @@ PATH PLANNING
 
 ![eig](7.5.png)
 
-# EXPLANATION:
+EXPLANATION:
 
 Path planning, also known as toolpath generation, is a crucial aspect of pre-processing in 3D printing. It involves determining the optimal paths that the 3D printer's nozzle or toolhead will follow to create each layer of the printed object.
 
@@ -120,6 +120,7 @@ Once the perimeters and shells are defined, the algorithm generates paths for in
 
 The path planning algorithm generates the final set of machine instructions, typically in G-code format. These instructions include the precise movements, print head speeds, extrusion rates, and other parameters that the 3D printer will use to create the object.
 
+# OUTPUT BY
 
 ### Name:NITEESH.M
 ### Register Number:212222230098
